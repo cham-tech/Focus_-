@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus ++ - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <nav class="main-nav">
+        <div class="nav-brand">Focus ++</div>
+        <div class="theme-toggle-container">
+            <span class="theme-icon light-icon" aria-hidden="true" title="Light mode">☀️</span>
+
+            <label class="toggle-switch">
+                <span class="sr-only">Toggle dark mode</span>
+                <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-slider"></span>
+            </label>
+
+            <span class="theme-icon dark-icon" aria-hidden="true" title="Dark mode">🌙</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="timer.html">Timer</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="breathing.html">Breathing</a></li>
+        </ul>
+    </nav>
+
+    <main class="home-container">
+        <section class="hero">
+            <h1>Plan Better, Live Better</h1>
+            <p>A calm and functional productivity toolkit designed to help you focus, reflect, and grow.</p>
+            <button class="cta-button" onclick="location.href='todo.html'">Start Planning</button>
+        </section>
+
+        <section class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">✅</div>
+                <h3>To-Do List</h3>
+                <p>Track daily tasks with progress monitoring to stay on top of your commitments.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⏱️</div>
+                <h3>Pomodoro Timer</h3>
+                <p>Boost productivity with focused work sessions and regular breaks.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <h3>Daily Journal</h3>
+                <p>Reflect on your day with persistent, date-organized entries.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Goal Tracker</h3>
+                <p>Build habits and track streaks to achieve your long-term objectives.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌿</div>
+                <h3>Breathing Exercise</h3>
+                <p>Calm your mind with guided breathing and relaxing sounds.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with care by Cherubin Umuragwa for your productivity journey</p>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>

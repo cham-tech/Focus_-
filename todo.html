@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus ++ - To-Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <nav class="main-nav">
+        <div class="nav-brand">Focus ++</div>
+        <div class="theme-toggle-container">
+            <span class="theme-icon light-icon" aria-hidden="true" title="Light mode">☀️</span>
+
+            <label class="toggle-switch">
+                <span class="sr-only">Toggle dark mode</span>
+                <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-slider"></span>
+            </label>
+
+            <span class="theme-icon dark-icon" aria-hidden="true" title="Dark mode">🌙</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="todo.html" class="active">To-Do</a></li>
+            <li><a href="timer.html">Timer</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="breathing.html">Breathing</a></li>
+        </ul>
+    </nav>
+
+    <main class="todo-container">
+        <h1>Today's Tasks</h1>
+        <div class="date-display" id="current-date"></div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <span class="progress-text" id="progress-text">0% complete</span>
+        </div>
+
+        <div class="todo-input-container">
+            <input type="text" id="todo-input" placeholder="Add a new task...">
+            <button id="add-todo-btn">Add</button>
+        </div>
+
+        <ul class="todo-list" id="todo-list"></ul>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>

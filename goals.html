@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus ++ - Goal Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <nav class="main-nav">
+        <div class="nav-brand">Focus ++</div>
+        <div class="theme-toggle-container">
+            <span class="theme-icon light-icon" aria-hidden="true" title="Light mode">☀️</span>
+
+            <label class="toggle-switch">
+                <span class="sr-only">Toggle dark mode</span>
+                <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-slider"></span>
+            </label>
+
+            <span class="theme-icon dark-icon" aria-hidden="true" title="Dark mode">🌙</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="timer.html">Timer</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="goals.html" class="active">Goals</a></li>
+            <li><a href="breathing.html">Breathing</a></li>
+        </ul>
+    </nav>
+
+    <main class="goals-container">
+        <h1>Goal Tracker</h1>
+
+        <div class="goal-input-container">
+            <input type="text" id="goal-input" placeholder="Enter a new goal (e.g., 'Exercise daily')">
+            <button id="add-goal-btn">Add Goal</button>
+        </div>
+
+        <div class="goals-list" id="goals-list">
+        </div>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/goals.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>

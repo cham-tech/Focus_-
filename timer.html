@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus ++ - Pomodoro Timer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <nav class="main-nav">
+        <div class="nav-brand">Focus ++</div>
+        <div class="theme-toggle-container">
+            <span class="theme-icon light-icon" aria-hidden="true" title="Light mode">☀️</span>
+
+            <label class="toggle-switch">
+                <span class="sr-only">Toggle dark mode</span>
+                <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-slider"></span>
+            </label>
+
+            <span class="theme-icon dark-icon" aria-hidden="true" title="Dark mode">🌙</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="timer.html" class="active">Timer</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="breathing.html">Breathing</a></li>
+        </ul>
+    </nav>
+
+    <main class="timer-container">
+        <h1>Pomodoro Timer</h1>
+
+        <div class="timer-display">
+            <div class="timer-mode" id="timer-mode">Focus</div>
+            <div class="time" id="time">25:00</div>
+        </div>
+
+        <div class="timer-controls">
+            <button id="start-btn">Start</button>
+            <button id="pause-btn">Pause</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        <div class="session-counter">
+            <span id="session-count">0</span> sessions completed today
+        </div>
+
+        <div class="timer-settings">
+            <label>
+                <input type="checkbox" id="sound-toggle" checked>
+                Enable sound notifications
+            </label>
+        </div>
+    </main>
+
+    <audio id="timer-sound" src="assets/sounds/notification.mp3" preload="auto"></audio>
+
+    <script src="js/common.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>

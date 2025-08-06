@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus ++ - Breathing Exercise</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <nav class="main-nav">
+        <div class="nav-brand">Focus ++</div>
+        <div class="theme-toggle-container">
+            <span class="theme-icon light-icon" aria-hidden="true" title="Light mode">☀️</span>
+
+            <label class="toggle-switch">
+                <span class="sr-only">Toggle dark mode</span>
+                <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-slider"></span>
+            </label>
+
+            <span class="theme-icon dark-icon" aria-hidden="true" title="Dark mode">🌙</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="timer.html">Timer</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="breathing.html" class="active">Breathing</a></li>
+        </ul>
+    </nav>
+
+    <main class="breathing-container">
+        <h1>Breathing Exercise</h1>
+        <p class="breathing-instructions">Follow the circle as it expands and contracts. Breathe in as it grows, and out
+            as it shrinks.</p>
+
+        <div class="breathing-animation-container">
+            <div class="breathing-circle" id="breathing-circle"></div>
+            <div class="breathing-text" id="breathing-text">Breathe In</div>
+        </div>
+
+        <div class="breathing-controls">
+            <button id="start-breathing-btn">Start</button>
+            <button id="stop-breathing-btn">Stop</button>
+
+            <div class="sound-options">
+                <label>Background Sound:
+                    <select id="sound-select">
+                        <option value="none">None</option>
+                        <option value="rain">Rain</option>
+                        <option value="waves">Ocean Waves</option>
+                        <option value="forest">Forest</option>
+                    </select>
+                </label>
+                <button id="play-sound-btn">Play Sound</button>
+            </div>
+        </div>
+    </main>
+
+    <audio id="rain-sound" src="assets/sounds/rain.mp3" loop preload="auto"></audio>
+    <audio id="waves-sound" src="assets/sounds/waves.mp3" loop preload="auto"></audio>
+    <audio id="forest-sound" src="assets/sounds/forest.mp3" loop preload="auto"></audio>
+
+    <script src="js/common.js"></script>
+    <script src="js/breathing.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>

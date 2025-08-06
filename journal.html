@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus ++ - Daily Journal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <nav class="main-nav">
+        <div class="nav-brand">Focus ++</div>
+        <div class="theme-toggle-container">
+            <span class="theme-icon light-icon" aria-hidden="true" title="Light mode">☀️</span>
+
+            <label class="toggle-switch">
+                <span class="sr-only">Toggle dark mode</span>
+                <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-slider"></span>
+            </label>
+
+            <span class="theme-icon dark-icon" aria-hidden="true" title="Dark mode">🌙</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="timer.html">Timer</a></li>
+            <li><a href="journal.html" class="active">Journal</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="breathing.html">Breathing</a></li>
+        </ul>
+    </nav>
+
+    <main class="journal-container">
+        <h1>Daily Reflection</h1>
+
+        <div class="journal-date-container">
+            <button id="prev-day-btn">←</button>
+            <div class="journal-date" id="journal-date"></div>
+            <button id="next-day-btn">→</button>
+        </div>
+
+        <textarea id="journal-entry"
+            placeholder="How was your day? What are you grateful for? What did you learn?"></textarea>
+
+        <div class="journal-controls">
+            <button id="save-journal-btn">Save</button>
+            <span id="save-status" class="save-status">Auto-saved</span>
+        </div>
+
+        <div class="journal-prompts">
+            <h3>Prompts to get you started:</h3>
+            <ul>
+                <li>What was the highlight of your day?</li>
+                <li>What challenge did you face and how did you handle it?</li>
+                <li>What are you looking forward to tomorrow?</li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/journal.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
