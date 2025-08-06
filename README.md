@@ -69,16 +69,16 @@ This idea was inspired by:
 
 ## 🔗 Links
 
-[Live Demo](#) (Coming Soon)
-[Video Demo](#) – (Coming Soon)
-[GitHub Repository](https://github.com/cham-tech/Focus_-.git)
+**[Live Demo](#) (Coming Soon)**
+**[Video Demo](#) – (Coming Soon)**
+**[GitHub Repository](https://github.com/cham-tech/Focus_-.git)**
 
 ---
 
 ## 📬 Contact
 
-[Email](mailto:"cherubinamani09@gmail.com")
-Discord: cherubin_umuragwa
+**[Email](mailto:"cherubinamani09@gmail.com")**
+**[Discord](https://discord.com/users/1267949776071299092)**
 
 ---
 
