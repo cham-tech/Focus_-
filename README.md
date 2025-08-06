@@ -77,7 +77,7 @@ This idea was inspired by:
 
 ## 📬 Contact
 
-![Email](mailto:"cherubinamani09@gmail.com")
+[Email](mailto:"cherubinamani09@gmail.com")
 Discord: cherubin_umuragwa
 
 ---
