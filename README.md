@@ -69,9 +69,9 @@ This idea was inspired by:
 
 ## 🔗 Links
 
-![Live Demo](#) (Coming Soon)
-![Video Demo](#) – (Coming Soon)
-![GitHub Repository](https://github.com/cham-tech/Focus_-.git)
+[Live Demo](#) (Coming Soon)
+[Video Demo](#) – (Coming Soon)
+[GitHub Repository](https://github.com/cham-tech/Focus_-.git)
 
 ---
 
