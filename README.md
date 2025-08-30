@@ -69,8 +69,8 @@ This idea was inspired by:
 
 ## 🔗 Links
 
-- **[Live Demo](#) (Coming Soon)**
-- **[Video Demo](#) – (Coming Soon)**
+- **[Live Demo](https://focusplusplus.netlify.app/)**
+- **[Video Demo](https://youtu.be/AIDUrbtGwOE)**
 - **[GitHub Repository](https://github.com/cham-tech/Focus_-.git)**
 
 ---
